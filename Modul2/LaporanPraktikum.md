@@ -37,7 +37,7 @@ func main() {
 ### Output Unguided : 
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/BagasManggalaPutra/109082500077_Bagas_Manggala_Putra/blob/main/Modul2/output/output1.png)
+![Screenshot Output Unguided 1_1](https://github.com/BagasManggalaPutra/109082500077_Bagas_Manggala_Putra/blob/main/Modul2/Output/output1.png)
 Jadi program ini gunanya untuk bisa dibilang menukar atau memindahkan nilai dari satu variabel ke variabel lain seperti output ditengah menjadi yang pertama output yang ada di pertama pindah ke output terakhir contoh "masa sih bang" menjadi "sih bang masa"
 
 
@@ -74,7 +74,7 @@ func main() {
 ### Output Unguided : 
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/BagasManggalaPutra/109082500077_Bagas_Manggala_Putra/blob/main/Modul2/output/output2.png)
+![Screenshot Output Unguided 1_1](https://github.com/BagasManggalaPutra/109082500077_Bagas_Manggala_Putra/blob/main/Modul2/Output/output2.png)
 Program yang ini dibuat untuk mengecek susunan dari warna tabung gelas reaksi dari gelas 1 sampai 4. nah jadi awalnya buat dulu variabel warna dari 1 sampai 4 tipe datanya string, buat juga variabel count yang di berikan nilai 0, habis itu kita buat perulangan dari 1 sampai 5 yang berisi inputan susunan warna dari 1 sampai 4 jika susunanya salah maka count akan bertambah 1 jika susunannya benar maka count tidak nambah, pas di akhir aku juga buat kondisi jika count tidak 0 maka outputnya berhasil: false dan jika count 0 maka berhasil : true
 
 ## Unguided 
@@ -122,5 +122,5 @@ func main() {
 ### Output Unguided : 
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/BagasManggalaPutra/109082500077_Bagas_Manggala_Putra/blob/main/Modul2/output/output3.png)
+![Screenshot Output Unguided 1_1](https://github.com/BagasManggalaPutra/109082500077_Bagas_Manggala_Putra/blob/main/Modul2/Output/output3.png)
 program ini dibuat untuk menghitung biaya pengiriman, awal kita buat variabel brparsel, kg, sisagram, biayagram, biayakg, total, biayagramakhir tipenya int, lanjut kita buat inputan untuk brparsel, nah habis itu buat rumus dimana untuk nilai dari kg diambil dari brparsel / 1000, sisagram didapat dari brparsel % 1000, dan biayakg diambil dari kg * 10000, habis itu buat logika kondisi 1 jika kg lebih besar dari 10 dan sisagram lebih kecil dari 500 biayagram jadi 0 dan biayagramakhir diambil dari sisagram dikali 15, kondisi 2 jika kg lebih besar dari 10 dan sisagram lebih besar atau sama dengan 500 maka biayagram jadi 0 dan biayagramakhir diambil dari sisagram dikali 5, kondisi 3 jika sisagram kurang dari 500 maka biayagram diambil dari sisagram dikali 15 dan biayagramakhir diambil dari sisagram dikali 15, kondisi terakhir biayagram akan diambil dari sisagram dikali 5 dan biayagramakhir diambil dari sisagram dikali 5, udah selesai untuk logika lanjut buat rumus untuk total biayakg ditambah biayagram yang terkhir aku buat output menggunakan fmt.Printf("Detail berat : %d kg + %d gr \n", kg, sisagram). fmt.Printf("Detail biaya : Rp. %d + Rp. %d\n", biayakg, biayagramakhir). fmt.Printf("Total biaya : Rp. %d \n", total)
